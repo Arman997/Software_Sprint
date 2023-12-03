@@ -1,0 +1,16 @@
+.list{
+
+    background-color: #383F51;
+    color: white;
+    height: 1080px;
+    width: 268px;
+    -webkit-box-shadow: 0px 15px 15px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 15px 15px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 15px 15px 0px rgba(34, 60, 80, 0.2);    
+}
+
+    
+
+li{
+    list-style-type: none;
+}
