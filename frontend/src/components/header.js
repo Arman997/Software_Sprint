@@ -1,11 +1,15 @@
 import React from 'react';
+import './styleList.css';
 
-const header = () => {
+const Header = () => {
     return (
-        <div>
+        <div className='header'>
             
+            <h2 className='baner'>Street address</h2>
+            
+            <input typeof='text' className='search' placeholder='search...'l/>
+
         </div>
     );
-};
-
-export default header;
+}
+export default Header;

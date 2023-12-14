@@ -4,9 +4,9 @@ import './styleList.css';
 const List = () => {
     return (
         <div className='list'>
-            
-            <h2>innovationItTech</h2>
-
+        
+            <h2 className='logo'>innovationItTech</h2>
+            <h2 className='horizontal-line'></h2>
             <ul  className='unordered_list'>
                 <li>Կենտրոն</li>
                 <li>Աջափնյակ</li>
