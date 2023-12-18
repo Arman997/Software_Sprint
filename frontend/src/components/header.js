@@ -6,8 +6,6 @@ const Header = () => {
         <div className='header'>
             
             <h2 className='baner'>Street address</h2>
-            
-            <input typeof='text' className='search' placeholder='search...'l/>
 
         </div>
     );
