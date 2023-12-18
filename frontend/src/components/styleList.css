@@ -52,7 +52,7 @@ li{
     justify-content: space-between;
     align-items: center;
     transform: translateY(90px);
-    left: 470px;
+    left: 400px;
     top: -80px;
     font-size: 20px;
     font-weight: bold;
@@ -61,45 +61,51 @@ li{
     
 }
 
-.main-list{
+.table-div{
+    position: fixed;
+    top: 100px;
+    font-family: Mukta, sans-serif;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
     align-items: center;
-    display: flex;
-    list-style: none;
+    color: #4f546c;
+    font-size: 0.9rem;
+    background-color: #f9fbff;
+}
+
+.table, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
     padding: 0;
-    width: auto;
-
 }
 
-.adress{
-    border-radius: 100px;
-    padding: 10px;
-    
-} 
-
-.date{
-    
-    
+.table{
+    border-collapse: collapse;
+  box-shadow: 0 5px 10px #e1e5ee;
+  background-color: white;
+  text-align: left;
+  overflow: hidden;
+}
+thead {
+    box-shadow: 0 5px 10px #e1e5ee;
 }
 
-.status{
-    padding: 0;
-    margin: 15px;
-    
+th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+
+td{
+    padding: 1rem 2rem;
+  }
+
+.status {
+    border-radius: 0.2rem;
+    background-color: red;
+    padding: 0.2rem 1rem;
+    text-align: center;
 }
-
-.table-adress{
-    width: 100%;
-    width: 350px;
-}
-
-.table-data{
-    width: 100%;
-    width: 250px;
-}
-
-.table-status{
-    width: 100%;
-    width: 150px;
-}
-
-

@@ -3,12 +3,24 @@ import './styleList.css';
 
 const Table = () => {
     return (
-        <div>
-            <tr>
-                <th className='table-adress'>Halabyan 2a</th>
-                <th className='table-data'>1 hours ago</th>
-                <th className='table-status'>full</th>
-            </tr>
+        <div className='table-div'>
+            <table className='table'>
+                <thead className='title'>
+                    <tr>
+                        <th>Adress</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody className='table-body'>
+                    <tr>
+                        <td className='adress'>Halabyan A2</td>
+                        <td className='date'> 1 hours ago </td>
+                        <td><p className='status'>full</p></td>
+                    </tr>
+                </tbody>
+            </table>
+            
         </div>
     );
 };
